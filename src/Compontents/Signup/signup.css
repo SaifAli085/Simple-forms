@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Slab&display=swap");
+
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    height: max-content;
+    background: white;
+    padding: 4.5rem;
+    font-family: "Roboto Slab", serif;
+    border-radius: 2rem;
+    box-shadow: 0px 15px 15px 0.1px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.close{
+    width: 18px;
+    position: absolute;
+    top: 7rem;
+    z-index: 100;
+}
+.edit{
+    position: relative;
+    right: 6px;
+}
+.input{
+    margin-top: -3rem;
+}
+
+.formData{
+    display: flex;
+    flex-direction: column;
+}
+h4.showFormData {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+p.form-error {
+    display: flex;
+    color: red;
+
+    font-size: 15px;
+}
+p.showErrors1{
+    margin-left: 105px;
+    
+}
+p.showErrors2{
+    margin-left: 92px;
+
+}
+p.showErrors3{
+    margin-left: 102px;
+
+}
+p.showErrors4{
+    margin-left: 75px;
+
+}
