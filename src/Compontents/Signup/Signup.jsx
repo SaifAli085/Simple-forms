@@ -30,7 +30,7 @@ const Signup = () => {
 
   return (
     <div className="signup-container">
-      <Link to="/home">
+      <Link to="/">
         <img className="close" src={close} alt="" />
       </Link>
       <div className="info">
